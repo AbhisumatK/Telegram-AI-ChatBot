@@ -1,6 +1,6 @@
-TOKEN = '8276104249:AAGsdrlEmU7VRfeqFEBKXBWzJJ_BwqHw8-4'
+TOKEN = 'Telegram-Bot-Token'
 BOT_USERNAME = '@ai_mini_chatbot'
-AI_API = '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'
+AI_API = 'Groq_API'
 
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
@@ -57,3 +57,4 @@ if __name__ == '__main__':
 
     print('Bot is running...')
     app.run_polling(poll_interval=3)
+
